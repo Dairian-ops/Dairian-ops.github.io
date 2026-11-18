@@ -2,7 +2,24 @@
 <html>
 
 <head>
-  <title>CHANGE ME</title>
+  <title>DdaBest</title> 
+  <link rel="stylesheet" href="style.css />
+  main {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
+    align-items: center;
+    min-height: calc(100vh - 160px);
+    gap: clamp(32px, 5vw, 80px);
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .content{
+    display: flex;
+    flex-direction: cloumn;
+    align-items: flex-start;
+    gap: 12px;
+  }
 </head>
 
 <ul>
@@ -26,6 +43,26 @@
   <div id="all-contents">
      
 
+    <main>
+      <div class="sidebar">
+        <img class="sidebar-img"
+        src="https://www.pinterest.com/pin/letter-d-made-of-purple-crystal-stones-and-silver-filigrees--2462974790997052/" alt="My image" />
+      </div>
+
+      <div class="content">
+        <h2>D'Airian</h2>
+        <p>The Nice coder</p>
+
+        <div id="interest">
+        <h3>Interests</h3>
+        <ul>
+          <li>Playing games</li>
+          <li>Basketball</li>
+          <li>Band</li>
+        </ul>
+
+      </div>
+    </main>
   </div>
 </body>
 
